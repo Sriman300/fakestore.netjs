@@ -6,13 +6,13 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* Brand */}
-        <a href="/" className="text-2xl font-semibold text-gray-800 tracking-tight">
+        <a href="/" className="text-2xl font-semibold text-yellow-800 tracking-tight">
           Fakestore
         </a>
 
         {/* Navigation */}
-        <nav className="flex items-center gap-8 text-gray-700">
-          <a href="/products" className="hover:text-black transition">All Products</a>
+        <nav className="flex items-center gap-8 text-yellow-700">
+          <a href="/products" className="hover:text-green transition">All Products</a>
 
           <a
             href="/products/new"
